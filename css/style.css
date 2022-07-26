@@ -1,0 +1,130 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	width: 100%;
+}
+
+.green{
+	width: 500px;
+	background: green;
+	height: 300px;
+	position: relative;
+}
+
+.red{
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+}
+
+.banner .fb{
+	width: 180px;
+	position: fixed;
+	right: -120px;
+	top: 35%;
+	transition: 0.5s;
+}
+
+.banner .fb:hover {
+             right: -20px;
+}
+
+.banner .ms{
+	width: 180px;
+	position: fixed;
+	right: -120px;
+	top: 50%;
+	transition: 0.5s;
+}
+
+.banner .ms:hover{
+           right: -20px;
+
+}
+
+.banner .wpp{
+          width: 180px;
+          position: fixed;
+          right: -120px;
+          top: 65%;
+          transition: 0.5s;
+}
+
+.banner .wpp:hover{
+	       right: -20px;
+}
+
+.banner .wc{
+	    width: 180px;
+	    position: fixed;
+	    right: -120px;
+	    top: 25%;
+	    transition: 0.5s;
+}
+
+.banner .wc:hover{
+	    right: -20px;
+}
+
+.banner .twt{
+	    width: 180px;
+	    position: fixed;
+	    right: -120px;
+	    top: 15%;
+	    transition: 0.5s;
+
+}
+
+.banner .twt:hover{
+	           right: -20px;
+}
+
+.banner .skp{
+	     width: 180px;
+	     position: fixed;
+	     right: -120px;
+	     top: 80%;
+	     transition: 0.5s;
+}
+
+.banner .skp:hover {
+	        right: -20px;
+}
+
+.icons-list{
+	width: 	100%;
+	display: 	block;
+	text-align: center;
+	padding: 	350px 0px;
+}
+
+.icons-list li{
+	list-style-type: none;
+	display: 	inline-block;	
+}
+
+.icons-list li a{
+	display: 	block;
+	width: 80px;
+	height: 80px;
+	font-size: 30px;
+	line-height: 80px;
+	border-radius: 100%;
+	margin: 	0px 15px;
+	color: 	#184D47;
+	background: skyblue;
+	border: 2px solid #000;
+	transition: 0.5s;
+}
+
+.icons-list li a:hover{
+                border: 2px solid #96BB7c;
+                background: greenyellow; 
+}
